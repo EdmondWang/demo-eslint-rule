@@ -14,6 +14,6 @@ if ( curHour < 12 ) {
 }
 
 output += ', ';
-output += curDay <= 5? 'Have a good time!': 'Have a nice weekend!';
+output += curDay <= 5 ? 'Have a good time!' : 'Have a nice weekend!';
 
 console.log( output );
