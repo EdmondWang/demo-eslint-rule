@@ -1,0 +1,14 @@
+{
+    "env": {
+        //remove either of the lines below if you don't need it
+        //enable nodejs environment
+        "node": true,
+        //enable browser environment
+        "browser": true,
+        "es6": true
+    },
+    "extends": ["eslint:recommended"],
+    "rules": {
+        "space-in-parens": ["error", "always"]
+    }
+}
